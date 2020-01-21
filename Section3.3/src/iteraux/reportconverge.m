@@ -57,12 +57,12 @@ if calcflag
         G = (G+G')/2;
         RES = HX-X*G;
         RES = RES.psi;
-        if (verbose==1)
-            for j = 1:size(RES,2)
-                fprintf('resnrm = %11.3e\n', norm(RES(:,j)));
-            end
-            fprintf('---------------------\n');
-        end
+        %if (verbose==1)
+        %    for j = 1:size(RES,2)
+        %        fprintf('resnrm = %11.3e\n', norm(RES(:,j)));
+        %    end
+        %    fprintf('---------------------\n');
+        %end
     end
     resfro = norm(RES,'fro');
 end
