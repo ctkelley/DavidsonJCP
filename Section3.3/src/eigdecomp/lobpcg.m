@@ -70,10 +70,13 @@ while (iter <= maxit && nconv < ncol)
   %
   for j = 1:ncol 
      resnrm(j) = norm(R(:,j));
-     if (verbose == 1)
-        fprintf('eigval(%2d) = %11.3e, resnrm = %11.3e\n', j, lambda(j), resnrm(j));
-     end
+  %   if (verbose == 1)
+  %      fprintf('eigval(%2d) = %11.3e, resnrm = %11.3e\n', j, lambda(j), resnrm(j));
+  %   end
   end
+  if (verbose == 1)
+     fprintf('Fnorm(R) = %11.3e\n', norm(R,'fro'));
+  end;
   iconv = find(abs(resnrm)<=tol);
   %
   % lock Ritz vectors that satisfy a more stringent convergence tolerance
