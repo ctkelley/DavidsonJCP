@@ -19,6 +19,10 @@ switch lower(eigmethod)
         cgtol = options.cgtol;
         maxcgiter = options.maxcgiter;
         [X, ev, ~, ~] = lobpcg(H, X, prec, cgtol, maxcgiter,verbose);
+    case {'davidson'}
+        cgtol = options.cgtol;
+        maxcgiter = options.maxcgiter;
+        [X, ev, ~, ~] = davidson(H, X, prec, cgtol, maxcgiter,verbose);
     case {'eigs'}
         eigstol = options.eigstol;
         maxeigsiter = options.maxeigsiter;
@@ -94,9 +98,9 @@ if ( verbose ==1 )
     fprintf('\n');
     ncol = size(X,2);
     resnrm = zeros(1,ncol);
-    for j = 1:ncol
-        resnrm(j) = norm(R(:,j));
-        fprintf('eigval(%2d) = %11.3e, resnrm = %11.3e\n', ...
-            j, ev(j), resnrm(j));
-    end
+    %for j = 1:ncol
+    %    resnrm(j) = norm(R(:,j));
+    %    fprintf('eigval(%2d) = %11.3e, resnrm = %11.3e\n', ...
+    %        j, ev(j), resnrm(j));
+    %end
 end
