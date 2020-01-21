@@ -404,7 +404,7 @@ if ~valid
     errid = 'MATLAB:funfun:setksopt:eigType';
     errmsg = sprintf('Invalid value for OPTIONS parameter %s: must be one of the following strings: lobpcg,eigs',field);
 else
-    if (any(strcmp(lower(value),{'lobpcg';'eigs';'chebyfilt';'omm'})))
+    if (any(strcmp(lower(value),{'lobpcg';'eigs';'chebyfilt';'omm';'davidson'})))
        errid = '';
        errmsg = '';
     else
