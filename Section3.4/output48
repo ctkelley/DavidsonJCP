@@ -1,0 +1,449 @@
+Auto processor grid settings: npes=16 PE_X=4 PE_Y=2 PE_Z=2
+RMG running with 16 MPI procs per host.
+C4: Numa aware allocation with 16 MPI procs, 20 cores and 2 numa nodes per host.
+Running with 1 Open MP threads.
+Running with 1 RMG threads.
+
+               * * * * * * * * * *
+               *    R   M   G    *
+               * * * * * * * * * *
+
+ -- A Real Space Multigrid Electronic structure code --
+ --      More information at www.rmgdft.org          --
+
+ quench: [md:   0/100  scf:   0/2  step time:   1.75  scf time:     1.80 secs  RMS[dV]: 1.75e-02 ]
+FNORM = 2.270259e-02   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 3.077686e-02   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 1.144345e-02   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 1.140681e-02   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 8.790243e-03   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 6.296854e-03   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 8.454077e-03   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 4.535728e-03   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 3.375761e-03   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 1.723523e-03   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 1.034924e-03   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 5.316602e-04   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 4.142135e-04   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 2.145216e-04   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 2.291230e-04   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 1.402536e-04   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 7.656151e-05   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 4.130304e-05   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 3.397070e-05   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 1.664335e-05   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 1.881408e-05   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 1.264800e-05   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 6.461519e-06   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 4.378561e-06   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 3.544075e-06   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 1.534484e-06   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 1.680018e-06   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 1.106972e-06   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 5.051215e-07   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 3.788506e-07   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 2.907172e-07   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 1.233193e-07   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 1.150631e-07   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 8.416929e-08   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 3.929554e-08   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 2.980019e-08   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 2.335358e-08   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 8.695188e-09   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 8.699093e-09   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 6.211631e-09   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 3.031934e-09   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 2.287851e-09   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 1.816084e-09   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 7.183069e-10   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 6.298708e-10   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 4.423675e-10   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 2.207997e-10   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 1.625041e-10   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 1.211300e-10   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 5.741883e-11   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 4.903529e-11   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 3.931909e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 1.863939e-11   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 1.721279e-11   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 3.769893e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 1.293362e-11   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 1.092054e-11   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 2.609977e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 1.040161e-11   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 1.440856e-11   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 3.677943e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 1.389865e-11   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 1.408688e-11   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 2.469822e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 8.656496e-12   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 6.465549e-12   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 1.411596e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 4.343826e-12   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 2.843044e-12   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 3.220406e-12   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 1.663644e-12   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 5.205759e-12   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 1.601995e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 5.611154e-12   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 4.969892e-12   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 1.229704e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 4.052126e-12   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 5.549199e-12   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 1.449308e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 5.340209e-12   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 7.018959e-12   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 1.848892e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 6.477297e-12   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 8.904163e-12   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 2.158130e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 7.719692e-12   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 9.719221e-12   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 2.079830e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 6.873935e-12   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 9.617148e-12   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 2.353232e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 8.455427e-12   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 9.579655e-12   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 2.066273e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 8.556487e-12   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 1.542227e-11   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 3.213647e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+
+FNORM = 1.218853e-11   notconv = 120
+DIAGONALIZING  360  120  480
+Davidson: notconv = 120  nbase=360  occupied_tol=1.000e-13
+
+FNORM = 1.155773e-11   notconv = 120
+DIAGONALIZING  480  120  480
+Davidson: notconv = 120  nbase=480  occupied_tol=1.000e-13
+ROTATING
+
+FNORM = 2.179411e-11   notconv = 120
+DIAGONALIZING  240  120  480
+Davidson: notconv = 120  nbase=240  occupied_tol=1.000e-13
+ROTATING
+
+ quench: [md:   0/100  scf:   1/2  step time:  65.84  scf time:    67.64 secs  RMS[dV]: 4.85e-02 ]
