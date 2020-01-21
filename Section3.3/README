@@ -1,4 +1,19 @@
 To use the code, start a matlab command window, 
 type KSSOLV_Startup in this directory to set up all paths.
 
+To run the C60 example, cd into the 'example' directory, type
+
+runC60_davidson 
+
+to run the Davidson method with 3 different choices of ecut values (mesh parameter).
+
+Type 
+
+runC60_lobpcg
+
+to run the LOBPCG method with 3 different choices of ecut values (mesh parameter).
+
+
+
 At this point (June, 2017), KSSOLV appears to need MATLAB version R2013b or higher. Some earlier versions may not work due to the change of syntax in the repmat function.
+
