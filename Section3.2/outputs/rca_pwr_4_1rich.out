@@ -1,0 +1,1317 @@
+----------------------------------------------------
+----------------------------------------------------
+1
+
+
+
+
+
+
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+        *****                                                                                                              *****
+        *****                                       program verification information                                       *****
+        *****                                                                                                              *****
+        *****                                   code system:  SCALE    version:  6.3                                       *****
+        *****                                                                                                              *****
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+        *****                                                                                                              *****
+        *****                                                                                                              *****
+        *****              program:  polaris                                                                               *****
+        *****                                                                                                              *****
+        *****        creation date:   unknown                                                                              *****
+        *****                                                                                                              *****
+        *****              library:  /Users/hu4/Codes/Scale/runs/davidson                                                  *****
+        *****                                                                                                              *****
+        *****                                                                                                              *****
+        *****            test code:  polaris                                                                               *****
+        *****                                                                                                              *****
+        *****              version:  6.3                                                                                   *****
+        *****                                                                                                              *****
+        *****              jobname:  hu4                                                                                   *****
+        *****                                                                                                              *****
+        *****         machine name:  sphmbpro                                                                              *****
+        *****                                                                                                              *****
+        *****    date of execution:  02_mar_2018                                                                           *****
+        *****                                                                                                              *****
+        *****    time of execution:  13:44:03.32                                                                           *****
+        *****                                                                                                              *****
+        *****                                                                                                              *****
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+        ************************************************************************************************************************
+
+
+--------------------------------------------------------------------------------
+ Case: Takahama unit 3 RCA
+SF97-4
+ORNL/TM-2010/44 Spec
+
+ Library: /Users/hu4/Codes/ScaleData/scale.rev04.xn56v7.1
+--------------------------------------------------------------------------------
+
+
+Input echo written to file {rca_pwr_4.idc}.
+
+
+Summary of Calculations
+-----------------------
+Total number of statepoint calculations                    = 1
+Total number of time-dependent histories                   = 1
+
+History 1                                                  = 'BASE_HISTORY'
+  Number of time-dependent calcs                           = 1
+  Number of instantaneous branches                         = 0
+  Number of statepoints                                    = 1
+
+-----------------------
+
+
+Statepoint Summary (Calculation Order)
+--------------------------------------
+
+Statepoint 1
+  History = 'BASE_HISTORY'
+  Material 'FUEL.1', Property 'dens', value = 1.0412E+01
+  Material 'FUEL.1', Property 'temp', value = 9.0000E+02
+  Material 'FUEL.2', Property 'dens', value = 1.0412E+01
+  Material 'FUEL.2', Property 'temp', value = 9.0000E+02
+  Material 'FUEL.3', Property 'dens', value = 1.0412E+01
+  Material 'FUEL.3', Property 'temp', value = 9.0000E+02
+  Material 'CLAD.1', Property 'dens', value = 6.5600E+00
+  Material 'CLAD.1', Property 'temp', value = 6.0000E+02
+  Material 'CNTL.1', Property 'dens', value = 1.0200E+01
+  Material 'CNTL.1', Property 'temp', value = 5.7784E+02
+  Material 'CNTL.2', Property 'dens', value = 1.7600E+00
+  Material 'CNTL.2', Property 'temp', value = 5.7784E+02
+  Material 'COOL.1', Property 'dens', value = 7.1600E-01
+  Material 'COOL.1', Property 'temp', value = 5.7784E+02
+  Material 'COOL.1', Property 'boron', value = 1.1530E+03
+  Material 'COOL.2', Property 'dens', value = 7.1600E-01
+  Material 'COOL.2', Property 'temp', value = 5.7784E+02
+  Material 'COOL.2', Property 'boron', value = 1.1530E+03
+  Material 'GAP.1', Property 'dens', value = 1.7860E-04
+  Material 'GAP.1', Property 'temp', value = 5.7784E+02
+  Material 'GRID.1', Property 'dens', value = 6.5600E+00
+  Material 'GRID.1', Property 'temp', value = 5.7784E+02
+  Material 'GRID.2', Property 'dens', value = 8.3000E+00
+  Material 'GRID.2', Property 'temp', value = 5.7784E+02
+  Material 'MOD.1', Property 'dens', value = 7.4300E-01
+  Material 'MOD.1', Property 'temp', value = 5.7784E+02
+  Material 'MOD.2', Property 'dens', value = 7.4300E-01
+  Material 'MOD.2', Property 'temp', value = 5.7784E+02
+  Material 'STRUCT.1', Property 'dens', value = 7.9400E+00
+  Material 'STRUCT.1', Property 'temp', value = 5.7784E+02
+  Material 'TUBE.1', Property 'dens', value = 6.5600E+00
+  Material 'TUBE.1', Property 'temp', value = 5.7784E+02
+  Power = 0.0000E+00 (MW/MTHM)
+  Initial time   = 0.0000E+00, delta = 0.0000E+00, final time   = 0.0000E+00 (days)
+  Initial burnup = 0.0000E+00, delta = 0.0000E+00, final burnup = 0.0000E+00 (GWD/MTHM)
+--------------------------------------
+
+Geometry cells: 17076
+Total number of segments: 219686
+Geometry cells: 17076
+Total number of segments: 3546452
+
+--------------------------------------------------
+Statepoint 1
+--------------------------------------------------
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 0
+The number of operator applies performed is 1
+The block size is         1
+The current basis size is 1
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+  -2.417528e+02 + i   0.000000e+00        3.264552e+02
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 1
+The number of operator applies performed is 2
+The block size is         1
+The current basis size is 2
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   4.932152e+00 + i   0.000000e+00        1.762567e+00
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 2
+The number of operator applies performed is 3
+The block size is         1
+The current basis size is 3
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   4.053563e+00 + i   0.000000e+00        1.068161e+00
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 3
+The number of operator applies performed is 4
+The block size is         1
+The current basis size is 4
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   3.073166e+00 + i   0.000000e+00        7.692880e-01
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 4
+The number of operator applies performed is 5
+The block size is         1
+The current basis size is 5
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   2.946649e+00 + i   0.000000e+00        1.009197e+00
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 5
+The number of operator applies performed is 6
+The block size is         1
+The current basis size is 6
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   2.101820e+00 + i   0.000000e+00        3.489453e-01
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 6
+The number of operator applies performed is 7
+The block size is         1
+The current basis size is 7
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   2.231671e+00 + i   0.000000e+00        3.618763e-01
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 7
+The number of operator applies performed is 8
+The block size is         1
+The current basis size is 8
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   2.096987e+00 + i   0.000000e+00        2.263003e-01
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 8
+The number of operator applies performed is 9
+The block size is         1
+The current basis size is 9
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.793156e+00 + i   0.000000e+00        1.728322e-01
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 9
+The number of operator applies performed is 10
+The block size is         1
+The current basis size is 10
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.715483e+00 + i   0.000000e+00        7.571870e-02
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 10
+The number of operator applies performed is 11
+The block size is         1
+The current basis size is 11
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.660737e+00 + i   0.000000e+00        4.619991e-02
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 11
+The number of operator applies performed is 12
+The block size is         1
+The current basis size is 12
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.385231e+00 + i   0.000000e+00        4.321546e-02
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 12
+The number of operator applies performed is 13
+The block size is         1
+The current basis size is 13
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.169078e+00 + i   0.000000e+00        2.107907e-02
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 13
+The number of operator applies performed is 14
+The block size is         1
+The current basis size is 14
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.154219e+00 + i   0.000000e+00        7.194733e-03
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 14
+The number of operator applies performed is 15
+The block size is         1
+The current basis size is 15
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.138534e+00 + i   0.000000e+00        2.321087e-03
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 15
+The number of operator applies performed is 16
+The block size is         1
+The current basis size is 16
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.122965e+00 + i   0.000000e+00        1.060939e-03
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 16
+The number of operator applies performed is 17
+The block size is         1
+The current basis size is 17
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119900e+00 + i   0.000000e+00        5.297952e-04
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 17
+The number of operator applies performed is 18
+The block size is         1
+The current basis size is 18
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.118980e+00 + i   0.000000e+00        4.266908e-04
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 18
+The number of operator applies performed is 19
+The block size is         1
+The current basis size is 19
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.120029e+00 + i   0.000000e+00        3.183780e-04
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 19
+The number of operator applies performed is 20
+The block size is         1
+The current basis size is 20
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.118222e+00 + i   0.000000e+00        2.147750e-04
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 20
+The number of operator applies performed is 21
+The block size is         1
+The current basis size is 21
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.120158e+00 + i   0.000000e+00        1.505917e-04
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 21
+The number of operator applies performed is 22
+The block size is         1
+The current basis size is 22
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119622e+00 + i   0.000000e+00        1.023065e-04
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 22
+The number of operator applies performed is 23
+The block size is         1
+The current basis size is 23
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119944e+00 + i   0.000000e+00        7.841896e-05
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 23
+The number of operator applies performed is 24
+The block size is         1
+The current basis size is 24
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119224e+00 + i   0.000000e+00        4.719290e-05
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 24
+The number of operator applies performed is 25
+The block size is         1
+The current basis size is 25
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119651e+00 + i   0.000000e+00        4.111353e-05
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 25
+The number of operator applies performed is 26
+The block size is         1
+The current basis size is 26
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119551e+00 + i   0.000000e+00        1.597568e-05
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 26
+The number of operator applies performed is 27
+The block size is         1
+The current basis size is 27
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119593e+00 + i   0.000000e+00        1.329862e-05
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 27
+The number of operator applies performed is 28
+The block size is         1
+The current basis size is 28
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119578e+00 + i   0.000000e+00        9.796017e-06
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 28
+The number of operator applies performed is 29
+The block size is         1
+The current basis size is 29
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119577e+00 + i   0.000000e+00        4.716024e-06
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 29
+The number of operator applies performed is 30
+The block size is         1
+The current basis size is 30
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119568e+00 + i   0.000000e+00        2.415371e-06
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 30
+The number of operator applies performed is 31
+The block size is         1
+The current basis size is 31
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119559e+00 + i   0.000000e+00        1.333682e-06
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 31
+The number of operator applies performed is 32
+The block size is         1
+The current basis size is 32
+The number of requested eigenvalues is 1
+The number of converged values is 1
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119555e+00 + i   0.000000e+00        8.586928e-07
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 31
+The number of operator applies performed is 32
+The block size is         1
+The current basis size is 32
+The number of requested eigenvalues is 1
+The number of converged values is 1
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119555e+00 + i   0.000000e+00        8.586928e-07
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 0
+The number of operator applies performed is 1
+The block size is         1
+The current basis size is 1
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119041e+00 + i   0.000000e+00        4.625526e-04
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 1
+The number of operator applies performed is 2
+The block size is         1
+The current basis size is 2
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119130e+00 + i   0.000000e+00        3.443450e-04
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 2
+The number of operator applies performed is 3
+The block size is         1
+The current basis size is 3
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119276e+00 + i   0.000000e+00        2.157872e-04
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 3
+The number of operator applies performed is 4
+The block size is         1
+The current basis size is 4
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119062e+00 + i   0.000000e+00        1.479178e-04
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 4
+The number of operator applies performed is 5
+The block size is         1
+The current basis size is 5
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119157e+00 + i   0.000000e+00        1.046489e-04
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 5
+The number of operator applies performed is 6
+The block size is         1
+The current basis size is 6
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119106e+00 + i   0.000000e+00        4.931550e-05
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 6
+The number of operator applies performed is 7
+The block size is         1
+The current basis size is 7
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119129e+00 + i   0.000000e+00        5.633811e-05
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 7
+The number of operator applies performed is 8
+The block size is         1
+The current basis size is 8
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119228e+00 + i   0.000000e+00        4.194119e-05
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 8
+The number of operator applies performed is 9
+The block size is         1
+The current basis size is 9
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119163e+00 + i   0.000000e+00        1.324019e-05
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 9
+The number of operator applies performed is 10
+The block size is         1
+The current basis size is 10
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119230e+00 + i   0.000000e+00        1.228159e-05
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 10
+The number of operator applies performed is 11
+The block size is         1
+The current basis size is 11
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119300e+00 + i   0.000000e+00        1.163378e-05
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 11
+The number of operator applies performed is 12
+The block size is         1
+The current basis size is 12
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119366e+00 + i   0.000000e+00        8.337809e-06
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 12
+The number of operator applies performed is 13
+The block size is         1
+The current basis size is 13
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119389e+00 + i   0.000000e+00        3.956395e-06
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 13
+The number of operator applies performed is 14
+The block size is         1
+The current basis size is 14
+The number of requested eigenvalues is 1
+The number of converged values is 0
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119410e+00 + i   0.000000e+00        2.130921e-06
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 14
+The number of operator applies performed is 15
+The block size is         1
+The current basis size is 15
+The number of requested eigenvalues is 1
+The number of converged values is 1
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119429e+00 + i   0.000000e+00        8.486034e-07
+
+================================================================================
+
+
+================================================================================
+
+                    GeneralizedDavidson Solver Solver Status
+
+The solver is initialized.
+The number of iterations performed is 14
+The number of operator applies performed is 15
+The block size is         1
+The current basis size is 15
+The number of requested eigenvalues is 1
+The number of converged values is 1
+
+CURRENT RITZ VALUES
+              Ritz Value                 Residual Norm
+--------------------------------------------------------------------------------
+   1.119429e+00 + i   0.000000e+00        8.486034e-07
+
+================================================================================
+
+     Transport: k-eff =  1.11943
+     Transport: eta   =  1.53947
+     Transport: f     =  0.86280
+     Transport: p     =  0.63943
+     Transport: eps   =  1.31805
+     Transport: k-inf =  1.11945
+     Transport: P_fnl =  1.00000
+     Transport: P_tnl =  0.99999
+
+Critical Spectrum Calculation Edit
+----------------------------------
+
+ Critical spectrum calculation is disabled.
+
+
+Lattice Physics Edit
+--------------------
+
+ Number of fine groups = 56
+ Number of broad groups = 2
+
+ First upscatter group in fine-group structure = 37
+ First upscatter group in broad-group structure = 1
+
+ Number of Homogenization Regions = 1
+
+ Adjoint option for kinetics parameters (inf.med/critical/uniform): infinte medium adjoint
+
+ Broad-Group Structure
+ ---------------------
+
+ |Broad|  Upper   |  Lower   |# of Fine|
+ |Group|Energy(eV)|Energy(eV)| Groups  |
+ |-----|----------|----------|---------|
+ |   1 | 2.000E+07| 6.250E-01|    40   |
+ |   2 | 6.250E-01| 1.000E-05|    16   |
+
+ Homogenization Region 1: 'taka'
+ ----------------------------------------------------------------
+
+  taka k-inf =  1.11944
+
+  Macroscopic Cross Sections
+  --------------------------
+
+  |Group |          |          |          |          |   Eff    |  Kappa-  |
+  |  #   |   Flux   |  Total   |Transport | Removal  |   Abs    |   Abs.   |
+  |------|----------|----------|----------|----------|----------|----------|
+  |   1  | 8.918E-01| 2.469E-01| 1.952E-01| 2.641E-02| 1.085E-02| 1.109E-13|
+  |   2  | 1.082E-01| 9.576E-01| 8.206E-01| 1.283E-01| 1.264E-01| 2.228E-12|
+
+  Fission Macroscopic Cross Sections
+  ----------------------------------
+
+  |Group |  Kappa-  |          |   Nu-    |          |Kappa-Abs/|
+  |  #   |   Fis.   | Fission  | Fission  |   Chi    | Fis (MeV)|
+  |------|----------|----------|----------|----------|----------|
+  |   1  | 1.048E-13| 3.354E-03| 8.515E-03| 1.000E+00|   206    |
+  |   2  | 2.187E-12| 7.034E-02| 1.714E-01| 2.584E-09|   198    |
+
+  Isotope Quantities
+  ------------------
+
+   I-135 Concentration                = 2.9068E-21
+  Xe-135 Concentration                = 2.9068E-21
+  Pm-149 Concentration                = 2.9068E-21
+  Sm-149 Concentration                = 2.9068E-21
+
+  Xe-135 Macro Abs XS                 = 3.6971E-16
+  Sm-149 Macro Abs XS                 = 1.1563E-17
+
+   U-235 Concentration                = 3.1101E-04
+   U-238 Concentration                = 7.3185E-03
+  Pu-239 Concentration                = 2.9068E-21
+  Pu-241 Concentration                = 2.9068E-21
+
+   U-235 Macro Fis XS                 = 9.8343E-03
+   U-238 Macro Fis XS                 = 7.6455E-04
+  Pu-239 Macro Fis XS                 = 2.4583E-19
+  Pu-241 Macro Fis XS                 = 2.4531E-19
+
+  Scattering Cross-sections
+  -------------------------
+
+  |G>G| Scatter  |G>G| Scatter  |G>G| Scatter  |G>G| Scatter  |G>G| Scatter  |
+  |---|----------|---|----------|---|----------|---|----------|---|----------|
+  |1>2| 1.556E-02|2>1| 1.900E-03|                                               
+
+  ADFs
+  ----
+
+  |Broad|          |          |          |          |
+  |Group|   West   |  South   |   East   |  North   |
+  |-----|----------|----------|----------|----------|
+  |  1  | 1.012E+00| 1.012E+00| 1.012E+00| 1.012E+00|
+  |  2  | 1.093E+00| 1.093E+00| 1.093E+00| 1.093E+00|
+  |-----|----------|----------|----------|----------|
+
+  CDFs on Surface Midpoints
+  -------------------------
+
+  |Broad|          |          |          |          |
+  |Group|   West   |  South   |   East   |  North   |
+  |-----|----------|----------|----------|----------|
+  |  1  | 9.635E-01| 9.635E-01| 9.635E-01| 9.635E-01|
+  |  2  | 1.041E+00| 1.041E+00| 1.041E+00| 1.041E+00|
+  |-----|----------|----------|----------|----------|
+
+  CDFs on Corners
+  ---------------
+
+  |Broad|          |          |          |          |
+  |Group|    NW    |    SW    |    SE    |    NE    |
+  |-----|----------|----------|----------|----------|
+  |  1  | 9.773E-01| 9.773E-01| 9.773E-01| 9.773E-01|
+  |  2  | 1.070E+00| 1.070E+00| 1.070E+00| 1.070E+00|
+  |-----|----------|----------|----------|----------|
+
+  Kinetic Parameters
+  ------------------
+
+  |Decay|          |          |   Beta   |  Lambda  |
+  |Group|   Beta   |  Lambda  |   Eff.   |   Eff.   |
+  |-----|----------|----------|----------|----------|
+  |  1  | 2.200E-04| 1.253E-02| 2.200E-04| 1.253E-02|
+  |  2  | 1.470E-03| 3.092E-02| 1.470E-03| 3.092E-02|
+  |  3  | 1.361E-03| 1.159E-01| 1.361E-03| 1.159E-01|
+  |  4  | 2.858E-03| 3.126E-01| 2.858E-03| 3.126E-01|
+  |  5  | 9.847E-04| 1.263E+00| 9.847E-04| 1.263E+00|
+  |  6  | 3.226E-04| 3.397E+00| 3.226E-04| 3.397E+00|
+  | Sum | 7.217E-03| 8.308E-02| 7.217E-03| 8.308E-02|
+
+  |Broad|  Inverse | Adj.Wtd. |
+  |Group| Velocity | Inv Vel  |
+  |  #  | (sec/cm) | (sec/cm) |
+  |-----|----------|----------|
+  |   1 | 5.285E-08| 1.316E-07|
+  |   2 | 2.365E-06| 5.808E-06|
+
+ Fission Density Peaking Factors
+ -------------------------------
+ 0.0000 1.0894 1.0738 0.0000 1.0201 0.2723 0.0000 1.0976 1.0714
+ 1.0894 1.0356 0.9949 1.0609 1.0282 1.0002 1.0754 1.0687 1.0660
+ 1.0738 0.9949 0.2694 1.0331 1.0512 1.0550 1.0922 1.0643 1.0602
+ 0.0000 1.0609 1.0331 0.0000 1.0990 1.0821 0.0000 1.0639 1.0516
+ 1.0201 1.0282 1.0512 1.0990 1.0719 1.0460 0.2732 0.9879 1.0326
+ 0.2723 1.0002 1.0550 1.0821 1.0460 0.0000 1.0095 1.0074 1.0332
+ 0.0000 1.0754 1.0922 0.0000 0.2732 1.0095 1.0220 1.0227 1.0380
+ 1.0976 1.0687 1.0643 1.0639 0.9879 1.0074 1.0227 1.0315 1.0451
+ 1.0714 1.0660 1.0602 1.0516 1.0326 1.0332 1.0380 1.0451 1.0598
+ 
+ Neutrons Per Fission
+ --------------------
+ 0.0000 2.4631 2.4635 0.0000 2.4647 2.5262 0.0000 2.4637 2.4644
+ 2.4631 2.4644 2.4651 2.4637 2.4645 2.4652 2.4637 2.4640 2.4645
+ 2.4635 2.4651 2.5269 2.4643 2.4640 2.4642 2.4634 2.4642 2.4647
+ 0.0000 2.4637 2.4643 0.0000 2.4630 2.4634 0.0000 2.4642 2.4647
+ 2.4647 2.4645 2.4640 2.4630 2.4634 2.4637 2.5254 2.4658 2.4650
+ 2.5262 2.4652 2.4642 2.4634 2.4637 0.0000 2.4651 2.4655 2.4653
+ 0.0000 2.4637 2.4634 0.0000 2.5254 2.4651 2.4655 2.4655 2.4654
+ 2.4637 2.4640 2.4642 2.4642 2.4658 2.4655 2.4655 2.4655 2.4650
+ 2.4644 2.4645 2.4647 2.4647 2.4650 2.4653 2.4654 2.4650 2.4649
+ 
+
+********************************************************************************
+  Polaris execution completed with zero errors.
+********************************************************************************
+
+
+Timex Report for (Overall Timer)
+----------------------------
+   Elapsed CPU  time(sec):  7.984E+02
+   Elapsed Wall time(sec):  7.898E+02
+           Efficiency (%): 101
+   Number of splits:       1
+
+
+Timex Report for (MOC Ray Trace)
+----------------------------
+   Elapsed CPU  time(sec):  2.804E+01
+   Elapsed Wall time(sec):  2.804E+01
+           Efficiency (%): 100
+   Number of splits:       1
+
+
+Timex Report for (ESSM Transport)
+----------------------------
+   Elapsed CPU  time(sec):  3.434E+00
+   Elapsed Wall time(sec):  3.495E+00
+           Efficiency (%): 98
+   Number of splits:       1
+
+
+Timex Report for (KEFF Transport)
+----------------------------
+   Elapsed CPU  time(sec):  7.468E+02
+   Elapsed Wall time(sec):  7.427E+02
+           Efficiency (%): 101
+   Number of splits:       1
+
+
+Timex Report for (GAMMA Transport)
+----------------------------
+   Elapsed CPU  time(sec):  0.000E+00
+   Elapsed Wall time(sec):  0.000E+00
+           Efficiency (%): 0
+   Number of splits:       0
+
+
+Timex Report for (Depletion)
+----------------------------
+   Elapsed CPU  time(sec):  0.000E+00
+   Elapsed Wall time(sec):  0.000E+00
+           Efficiency (%): 0
+   Number of splits:       0
+
